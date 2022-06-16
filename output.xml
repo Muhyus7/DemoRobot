@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220616 20:50:47.571" rpa="false" schemaversion="3">
+<suite id="s1" name="Radiobutton" source="D:\DemoRobot\radiobutton.robot">
+<test id="s1-t1" name="I am click radio button impressive" line="11">
+<kw name="Open Browser" library="SeleniumLibrary" type="SETUP">
+<arg>${base_url}</arg>
+<arg>${browser_type}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220616 20:50:48.217" level="INFO">Opening browser 'firefox' to base url 'https://demoqa.com/radio-button'.</msg>
+<msg timestamp="20220616 20:50:48.221" level="INFO">Firefox driver log is always forced to to: D:\DemoRobot\geckodriver-32.log</msg>
+<status status="PASS" starttime="20220616 20:50:48.215" endtime="20220616 20:52:07.212"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220616 20:52:07.220" endtime="20220616 20:52:07.322"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//label[@for='impressiveRadio']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220616 20:52:07.324" level="INFO">Clicking element '//label[@for='impressiveRadio']'.</msg>
+<status status="PASS" starttime="20220616 20:52:07.324" endtime="20220616 20:52:15.162"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220616 20:52:18.180" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220616 20:52:15.166" endtime="20220616 20:52:18.180"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>//p[@class='mt-3']</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20220616 20:52:19.262" level="INFO">Element '//p[@class='mt-3']' is displayed.</msg>
+<status status="PASS" starttime="20220616 20:52:18.184" endtime="20220616 20:52:19.262"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220616 20:52:22.272" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220616 20:52:19.262" endtime="20220616 20:52:22.272"/>
+</kw>
+<kw name="Element Should Contain" library="SeleniumLibrary">
+<arg>//span[@class='text-success']</arg>
+<arg>Impressive</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220616 20:52:23.955" level="INFO">Element '//span[@class='text-success']' contains text 'Impressive'.</msg>
+<status status="PASS" starttime="20220616 20:52:22.272" endtime="20220616 20:52:23.955"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220616 20:52:26.969" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220616 20:52:23.959" endtime="20220616 20:52:26.969"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220616 20:52:26.969" endtime="20220616 20:52:41.936"/>
+</kw>
+<status status="PASS" starttime="20220616 20:50:48.213" endtime="20220616 20:52:41.936"/>
+</test>
+<test id="s1-t2" name="I am click radio button Yes" line="21">
+<kw name="Open Browser" library="SeleniumLibrary" type="SETUP">
+<arg>${base_url}</arg>
+<arg>${browser_type}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220616 20:52:41.956" level="INFO">Opening browser 'firefox' to base url 'https://demoqa.com/radio-button'.</msg>
+<msg timestamp="20220616 20:52:41.961" level="INFO">Firefox driver log is always forced to to: D:\DemoRobot\geckodriver-33.log</msg>
+<status status="PASS" starttime="20220616 20:52:41.955" endtime="20220616 20:54:28.083"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220616 20:54:28.091" endtime="20220616 20:54:28.558"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//label[@for='yesRadio']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220616 20:54:28.558" level="INFO">Clicking element '//label[@for='yesRadio']'.</msg>
+<msg timestamp="20220616 20:54:31.472" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220616 20:54:31.476" level="FAIL">Element with locator '//label[@for='yesRadio']' not found.</msg>
+<status status="FAIL" starttime="20220616 20:54:28.558" endtime="20220616 20:54:54.841"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220616 20:54:54.847" endtime="20220616 20:54:54.848"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>//p[@class='mt-3']</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220616 20:54:54.850" endtime="20220616 20:54:54.850"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220616 20:54:54.851" endtime="20220616 20:54:54.852"/>
+</kw>
+<kw name="Element Should Contain" library="SeleniumLibrary">
+<arg>//span[@class='text-success']</arg>
+<arg>Yes</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="NOT RUN" starttime="20220616 20:54:54.854" endtime="20220616 20:54:54.854"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220616 20:54:54.856" endtime="20220616 20:54:54.856"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220616 20:54:54.862" endtime="20220616 20:55:05.403"/>
+</kw>
+<status status="FAIL" starttime="20220616 20:52:41.953" endtime="20220616 20:55:05.406">Element with locator '//label[@for='yesRadio']' not found.</status>
+</test>
+<test id="s1-t3" name="I am click radio button No" line="31">
+<kw name="Open Browser" library="SeleniumLibrary" type="SETUP">
+<arg>${base_url}</arg>
+<arg>${browser_type}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220616 20:55:05.413" level="INFO">Opening browser 'firefox' to base url 'https://demoqa.com/radio-button'.</msg>
+<msg timestamp="20220616 20:55:05.417" level="INFO">Firefox driver log is always forced to to: D:\DemoRobot\geckodriver-34.log</msg>
+<status status="PASS" starttime="20220616 20:55:05.412" endtime="20220616 20:56:31.021"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220616 20:56:31.031" endtime="20220616 20:56:31.269"/>
+</kw>
+<kw name="Element Should Be Disabled" library="SeleniumLibrary">
+<arg>//label[@for='noRadio']</arg>
+<doc>Verifies that element identified by ``locator`` is disabled.</doc>
+<msg timestamp="20220616 20:56:32.651" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220616 20:56:32.652" level="FAIL">Element '//label[@for='noRadio']' is enabled.</msg>
+<status status="FAIL" starttime="20220616 20:56:31.286" endtime="20220616 20:56:32.653"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220616 20:56:32.656" endtime="20220616 20:56:32.656"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220616 20:56:32.659" endtime="20220616 20:57:29.267"/>
+</kw>
+<status status="FAIL" starttime="20220616 20:55:05.410" endtime="20220616 20:57:29.267">Element '//label[@for='noRadio']' is enabled.</status>
+</test>
+<status status="FAIL" starttime="20220616 20:50:47.571" endtime="20220616 20:57:29.294"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="2" skip="0" id="s1" name="Radiobutton">Radiobutton</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

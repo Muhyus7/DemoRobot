@@ -1,0 +1,9 @@
+1655387078006	geckodriver	INFO	Listening on 127.0.0.1:57582
+1655387100103	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Syahla\\AppData\\Local\\Temp\\rust_mozprofilemf3O4o"
+1655387113106	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57583
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Syahla\\AppData\\Local\\Temp\\rust_mozprofilemf3O4o\\search.json.mozlz4", (void 0)))
+1655387219895	Marionette	INFO	Listening on port 57645
+DevTools listening on ws://localhost:57583/devtools/browser/d7ce1e48-b583-411c-b497-c13ba4d561e8

@@ -1,0 +1,43 @@
+1655307637309	geckodriver	INFO	Listening on 127.0.0.1:58082
+1655307640881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Syahla\\AppData\\Local\\Temp\\rust_mozprofileedaO61"
+1655307669415	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58083
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: Killing GPU process due to IPC reply timeout
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+[GFX1-]: Fallback WR to SW-WR + D3D11
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_UpdateVar) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_UpdateVar) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorManager::Msg_PCompositorBridgeConstructor) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PCompositorWidgetConstructor) Channel error: cannot send/recv
+
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_UpdateVar) Channel error: cannot send/recv
+
+[GFX1-]: Failed to create remote compositor
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_UpdateVar) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_ShutdownVR) Channel error: cannot send/recv
+
+[Parent 11096, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:405
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PCompositorWidget::Msg_UpdateCompositorWnd) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Syahla\\AppData\\Local\\Temp\\rust_mozprofileedaO61\\search.json.mozlz4", (void 0)))

@@ -1,0 +1,25 @@
+1655386587951	geckodriver	INFO	Listening on 127.0.0.1:57011
+1655386591843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57012" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Syahla\\AppData\\Local\\Temp\\rust_mozprofileALjr7C"
+1655386602677	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57012
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Syahla\\AppData\\Local\\Temp\\rust_mozprofileALjr7C\\search.json.mozlz4", (void 0)))
+1655386637791	Marionette	INFO	Listening on port 57092
+DevTools listening on ws://localhost:57012/devtools/browser/6babc205-7ea2-4693-80d0-cd8e627d574b
+Read port: 57092
+1655386640180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 400: TypeError: e(...).setup is not a function
+1655386657639	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Fp7ECwttPu2Qt8V9RhmSdP8PTUkobZWfkzIiSeRIuag.js line 2 > eval line 6681 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Fp7ECwttPu2Qt8V9RhmSdP8PTUkobZWfkzIiSeRIuag.js line 2 > eval line 5109 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Fp7ECwttPu2Qt8V9RhmSdP8PTUkobZWfkzIiSeRIuag.js line 2 > eval line 5059 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Fp7ECwttPu2Qt8V9RhmSdP8PTUkobZWfkzIiSeRIuag.js line 2 > eval line 4435 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655386677985	Marionette	INFO	Stopped listening on port 57092
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

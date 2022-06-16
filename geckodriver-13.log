@@ -1,0 +1,17 @@
+1655306338486	geckodriver	INFO	Listening on 127.0.0.1:57183
+1655306390540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57184" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Syahla\\AppData\\Local\\Temp\\rust_mozprofileEYRSZQ"
+1655306397450	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57184
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Syahla\\AppData\\Local\\Temp\\rust_mozprofileEYRSZQ\\search.json.mozlz4", (void 0)))
+1655306441969	Marionette	INFO	Listening on port 57295
+DevTools listening on ws://localhost:57184/devtools/browser/60fcd497-ff4f-4c2f-b1d4-0b8566d619df
+Read port: 57295
+1655306443552	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://stockbit.com/ line 290 > injectedScript, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://stockbit.com/ line 290 > injectedScript, line 1: ReferenceError: fbq is not defined
+1655306591141	Marionette	INFO	Stopped listening on port 57295
+[Parent 9988, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 9988, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

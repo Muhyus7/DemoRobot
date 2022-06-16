@@ -1,0 +1,4 @@
+1655304246022	geckodriver	INFO	Listening on 127.0.0.1:55600
+1655304270741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Syahla\\AppData\\Local\\Temp\\rust_mozprofileR3f3Hf"
+1655304378400	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55601
